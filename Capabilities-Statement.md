@@ -2,7 +2,7 @@
 tags: [Import-26a7]
 title: Building a Capabilities Statement
 created: '2023-01-23T20:39:00.876Z'
-modified: '2023-01-24T15:12:36.834Z'
+modified: '2023-01-24T15:25:46.799Z'
 ---
 
 # Building a Capabilities Statement
@@ -50,9 +50,16 @@ Logos of clients is ok.
 ### DUNS, CAGE codes
 List these b/c a company has a CAGE code only if registered in SAM.gov. This shows the purchasing agency that you're registered to do business with the government.
 
-### Contact
+### Contact Information
 List a specific person's name, their direct phone and email, and the company website as a link.
 ___
 
+Gather all of the necessary elements, then lay them out on a single page in an easily readable manner.
+
+For examples, google "Capability Statement" then click on "Images".
+
+There are Cabaility Statements available for purchase online.
+
+Don't use long paragraphs. Use bullets, whitespace, appealing color schemes and appropriate imagery. Use a font large enough to be readable.
 
 
