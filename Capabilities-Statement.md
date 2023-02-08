@@ -6,7 +6,7 @@ modified: '2023-01-24T15:25:46.799Z'
 ---
 
 # Building a Capabilities Statement
-<https://www.youtube.com/watch?v=y3kMBgk9svw>
+[Youtube](https://www.youtube.com/watch?v=y3kMBgk9svw)
 
 ### Elements
 * Name, Logo

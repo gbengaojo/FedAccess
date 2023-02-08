@@ -71,3 +71,6 @@ sed -i -e 's/\*__block/\*__libc_block/g' /usr/include/unistd.h`
       libxml2 \
       tar \
       tzdata`
+
+### Style Guide
+[Style Guide](https://google.github.io/swift/)
