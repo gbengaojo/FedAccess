@@ -49,9 +49,10 @@
       libstdc++-static \
       pkg-config \
       python2 \
-      sqlite
+      sqlite`
 
-      sed -i -e 's/\*__block/\*__libc_block/g' /usr/include/unistd.h`
+`# __block conflicts with clang's __block qualifier
+sed -i -e 's/\*__block/\*__libc_block/g' /usr/include/unistd.h`
 
 ### Installtion on Amazon Linux 2
 `$ yum install \
