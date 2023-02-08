@@ -2,11 +2,11 @@
 12.28.22 12:18pm CST
 --------------------
 
-<https://www.cisa.gov/doing-business-cisa>(Doing Business w/ CISA)
-<https://youtu.be/7lY0BCd0IjQ>(Youtube)
+[Doing Business w/ CISA](https://www.cisa.gov/doing-business-cisa)
+[Youtube](https://youtu.be/7lY0BCd0IjQ)
 
 1) Vendor contacts CISA through the following email:
-<CISAVendorEngagement@cisa.dhs.gov>(CISAVendorEngagement@cisa.dhs.gov)
+[CISAVendorEngagement@cisa.dhs.gov](CISAVendorEngagement@cisa.dhs.gov)
 
 2) CISA VEP provides ack of vendor request, including a questionnair to complete within 3 business days
 
