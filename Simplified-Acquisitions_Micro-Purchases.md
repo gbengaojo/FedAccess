@@ -1,8 +1,8 @@
 12.22.22 7:48pm CST
 -------------------
 
-# How to Obtain First Contracts
-<https://www.youtube.com/watch?v=QTYK_r_du9U&ab_channel=FedAccess>(Youtube)
+# Simplified Acquisitions and Micro-Purchases
+[Youtube]<https://www.youtube.com/watch?v=QTYK_r_du9U&ab_channel=FedAccess>
 
 ### Micro-Purchases - Contracts below $10k
 <https://home.treasury.gov/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization/bureau-simplified-acquisition-contacts>(BetaSAM Contacts)
