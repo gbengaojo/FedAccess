@@ -51,7 +51,6 @@
       python2 \
       sqlite
 
-      # __block conflicts with clang's __block qualifier
       sed -i -e 's/\*__block/\*__libc_block/g' /usr/include/unistd.h`
 
 ### Installtion on Amazon Linux 2
