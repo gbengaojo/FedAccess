@@ -11,3 +11,5 @@
 `cargo publish`
 
 `cargo new <application-name>`
+
+[Reference](https://www.rust-lang.org/learn/get-started)
