@@ -29,4 +29,23 @@ And then I said "I have \(apples + oranges) pieces of fruit."
 """
 
 // arrays and dictionaries
-var fruits = ["strawberries"]
+var fruits = ["strawberries", "limes", "tangerines"]
+fruits[1] = "grapes"
+
+var occupations = ]
+    "Malcolm": "Captain",
+    "Kaylee": "Mechanic",
+]
+occupations["Jayne"] = "Public Relations"
+
+// arrays are dynmic as elements are added
+fruits.append("blueberries")
+print(fruits)
+
+// to empty an array or dictionary...
+fruits = []
+occupations = [:]
+
+// empty array or dictionary assignment requires type declaration
+let emptyArray: [String] = []
+let emptyDictionary: [String: Float] = [:]
