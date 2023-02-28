@@ -76,3 +76,21 @@ if let name = optionalName {
 let nickname: String? = nil
 let fullName: String = "John Appleseed"
 let informalGreeting = "Hi \(nickname ?? fullName)"
+
+// todo: prints nothing b/c nickname is `nil`??
+if let nickname {
+    print("hey, \(nickname)")
+}
+
+// case-switch statements support a variety of comparison operations
+let vegetetable = "red pepper"
+switch vegetetable {
+    case "celery":
+        print("Add some raisins and make ants on a log.")
+    case "cucumber", "watercress":
+        print("That would make a good tea sandwich.")
+    case let x where x.hasSuffix("pepper"):
+        print("Is it a spicy \(x)?")
+    default:
+        print("Everything tastes good in a soup.")
+}
