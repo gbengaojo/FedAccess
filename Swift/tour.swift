@@ -49,3 +49,30 @@ occupations = [:]
 // empty array or dictionary assignment requires type declaration
 let emptyArray: [String] = []
 let emptyDictionary: [String: Float] = [:]
+
+// Control Flow => for-in
+let individualScores = [75, 3, 103, 87 12]
+var teamScore = 0
+for score in individualScores {
+    if score > 50 {
+        teamScore += 3
+    } else {
+        teamScore += 1
+    }
+}
+print(teamScore)
+
+// testing for `nil` values with if and let and <Type>?
+var optionalString: String? = "Hello"
+print(optionalString == nil) // False
+
+var optionalName: String? = "John Appleseed"
+var greeting = "Hello!"
+if let name = optionalName {
+    greeing = "Hello, \(name)"
+}
+
+// optional values using the default value operator `??`
+let nickname: String? = nil
+let fullName: String = "John Appleseed"
+let informalGreeting = "Hi \(nickname ?? fullName)"
