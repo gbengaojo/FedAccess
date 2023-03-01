@@ -5,12 +5,12 @@
 
 
 ## Acronyms
-ADT -> Accessible Developer Training
-OAST -> Office of Accessible Systems & Technology
-ICT -> Information and Communication Technology
-ARIA -> Accessible Rich Internet Applications
-WCAG -> Web Content Accessibility Guidelines
-ATAG -> Authoring Tool Accessibility Guidelines
-VAAG -> User-Agent Accessibility Guidelines
-ANDI -> Accessible Name & Description Inspector
-CCA -> Color Contrast Analyze
+* ADT -> Accessible Developer Training
+* OAST -> Office of Accessible Systems & Technology
+* ICT -> Information and Communication Technology
+* ARIA -> Accessible Rich Internet Applications
+* WCAG -> Web Content Accessibility Guidelines
+* ATAG -> Authoring Tool Accessibility Guidelines
+* VAAG -> User-Agent Accessibility Guidelines
+* ANDI -> Accessible Name & Description Inspector
+* CCA -> Color Contrast Analyze
