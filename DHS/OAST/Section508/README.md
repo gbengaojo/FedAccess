@@ -5,7 +5,7 @@
 
 
 ## Acronyms
-* ADT -> Accessible Developer Training
+* _ADT_ -> Accessible Developer Training
 * OAST -> Office of Accessible Systems & Technology
 * ICT -> Information and Communication Technology
 * ARIA -> Accessible Rich Internet Applications
