@@ -5,7 +5,9 @@
 
 ## Table of Contents
 [Acronyms](#Acronyms)
+
 [ICT Baseline Tests](#ICT-Baseline-Tests)
+
 [Trusted Tester](#Trusted-Tester)
 
 ## Acronyms
