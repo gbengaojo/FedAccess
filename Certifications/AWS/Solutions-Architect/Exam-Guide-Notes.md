@@ -1,11 +1,14 @@
 ---
 tags: AWS
-title: Exam Guide
+title: Exam Guide Notes
 created: '2023-03-01'
 modified: '2023-03-01'
 ---
 
 # Exam Guide
+
+# Table of Contents
+
 
 ## Exam Content
 
@@ -20,6 +23,19 @@ modified: '2023-03-01'
 ### Exam Results
 * Pass/Fail w/ minimum passing score of 720 (on a 100 - 1000 point scale)
 * Scores may be scaled depending on difficulty of exam
+
+### Content Outline
+
+### Domain 1: Design Secure Architectures 
+
+### Domain 2: Design Resilient Architectures 
+
+### Domain 3: Design High-Performing Architectures
+
+### Domain 4: Design Cost-Optimized Architectures
+
+
+
 
 
 ## Appendix

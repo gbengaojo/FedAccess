@@ -1,3 +1,10 @@
+---
+tags: AWS
+title: AWS Certified Solutions Architect - Associate
+created: '2023-03-01'
+modified: '2023-03-01'
+---
+
 # AWS Certified Solutions Architect - Associate
 [reference link](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
