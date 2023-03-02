@@ -3,14 +3,25 @@
 * Commissioned to ensure agency employees and customers with disabilities have equal acces to information, data, and systems.
 * All federal institutions are required to ensure accessibility according to *Section 508 of the Rehabilitation Act of 1973*
 
+## Table of Contents
+[Acronyms](#Acronyms)
+[ICT Baseline Tests](#ICT-Baseline-Tests)
+[Trusted Tester](#Trusted-Tester)
 
 ## Acronyms
-* _ADT_ -> Accessible Developer Training
-* OAST -> Office of Accessible Systems & Technology
-* ICT -> Information and Communication Technology
-* ARIA -> Accessible Rich Internet Applications
-* WCAG -> Web Content Accessibility Guidelines
-* ATAG -> Authoring Tool Accessibility Guidelines
-* VAAG -> User-Agent Accessibility Guidelines
-* ANDI -> Accessible Name & Description Inspector
-* CCA -> Color Contrast Analyze
+* __ADT__ - Accessible Developer Training
+* __OAST__ - Office of Accessible Systems & Technology
+* __ICT__ - Information and Communication Technology
+* __ARIA__ - Accessible Rich Internet Applications
+* __WCAG__ - Web Content Accessibility Guidelines
+* __ATAG__ - Authoring Tool Accessibility Guidelines
+* __VAAG__ - User-Agent Accessibility Guidelines
+* __ANDI__ - Accessible Name & Description Inspector
+* __CCA__ - Color Contrast Analyze
+
+### ICT Baseline Tests
+* Reduce ambiguity in test results while increasing consistency
+* Provide a common set of testing methods
+* Serve as a foundation for Web Content Accessibility Guidelins (WCAG) tests
+
+### Trusted Tester
