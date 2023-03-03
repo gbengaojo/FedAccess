@@ -36,5 +36,4 @@ modified: '2023-03-03T11:08:45.177Z'
 * Serve as a foundation for Web Content Accessibility Guidelins (WCAG) tests
 
 ### Trusted Tester
-* Current standard is the [*Trusted Tester Conformance Test Process Version 5.0*]
-
+* Current standard is the [*Trusted Tester Conformance Test Process Version 5.0*](https://www.dhs.gov/sites/default/files/publications/trusted_tester_test_process_v5_0_aug_16_2019.pdf)
