@@ -2,7 +2,7 @@
 tags: AWS
 title: Exam Guide Notes
 created: '2023-03-01'
-modified: '2023-03-01'
+modified: '2023-03-06'
 ---
 
 # Exam Guide
