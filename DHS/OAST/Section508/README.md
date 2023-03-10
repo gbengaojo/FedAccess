@@ -37,3 +37,7 @@ modified: '2023-03-03T11:08:45.177Z'
 
 ### Trusted Tester
 * Current standard is the [*Trusted Tester Conformance Test Process Version 5.0*](https://www.dhs.gov/sites/default/files/publications/trusted_tester_test_process_v5_0_aug_16_2019.pdf)
+* Process consists of three parts
+  1. Incremental Tests that cover each of the 17 areas of study
+  2. Practice Tests that emulate the actual Exam
+  3. The Final Exam used to certify an individual as a Trusted Tester
