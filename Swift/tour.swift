@@ -112,3 +112,16 @@ for (_, numbers) in interestingNumbers {
     }
 }
 print(largest)
+
+// while, repeat...
+var n = 2
+while n < 100 {
+  n *= 2
+}
+print(n) // prints "128"
+
+var m = 2
+repeat {
+  m *= 2
+} while m < 100
+print(m) // also print "128"
