@@ -1,5 +1,5 @@
 ---
-tags: [Import-26a7]
+tags: Capabilities Statement
 title: Building a Capabilities Statement
 created: '2023-01-23T20:39:00.876Z'
 modified: '2023-01-24T15:25:46.799Z'
