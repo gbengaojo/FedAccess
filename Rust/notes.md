@@ -12,4 +12,6 @@
 
 `cargo new <application-name>`
 
-[Reference](https://www.rust-lang.org/learn/get-started)
+[Getting Started](https://www.rust-lang.org/learn/get-started)
+[Play](https://play.rust-lang.org/)
+[Learn](https://www.rust-lang.org/learn)
