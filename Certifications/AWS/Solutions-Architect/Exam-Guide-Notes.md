@@ -1,8 +1,8 @@
 ---
-tags: AWS
+tags: AWS, Certifications
 title: Exam Guide Notes
 created: '2023-03-01'
-modified: '2023-03-06'
+modified: '2023-04-2'
 ---
 
 # Exam Guide
