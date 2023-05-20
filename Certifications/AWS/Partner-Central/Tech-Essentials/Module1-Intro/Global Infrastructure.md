@@ -34,7 +34,7 @@ modified: '2023-05-19T14:06:28.712Z'
     - E.g., GDPR
 
 ## Availability Zones
-Clusters of Availability Zones exist in each Region. Appending <code>a, b, c, etc...<code> to the AZ code name infers the cluster.
+Clusters of Availability Zones exist in each Region. Appending <code>a, b, c, etc...</code> to the AZ code name infers the cluster.
 
 > Inside every Region is a cluster of Availability Zones. An Availability Zone consists of one or more data centers with redundant power, networking, and connectivity. These data centers operate in discrete facilities in undisclosed locations. They are connected using redundant high-speed and low-latency links.
 
