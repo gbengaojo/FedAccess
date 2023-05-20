@@ -56,8 +56,14 @@ Clusters of Availability Zones exist in each Region. Appending <code>a, b, c, et
 
 ## Resources
 [Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
+
 [AWS Global Infrastructure Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html)
+
 [AWS Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
+
 [AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html)
+
 [AWS Regional Services](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/)
+
 [Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+
