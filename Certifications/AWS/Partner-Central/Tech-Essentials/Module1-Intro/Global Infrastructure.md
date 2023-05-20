@@ -55,15 +55,15 @@ Clusters of Availability Zones exist in each Region. Appending <code>a, b, c, et
   * Requests are routed to the Edge Location w/ the lowest latency
 
 ## Resources
-[Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
+[Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) Website
 
-[AWS Global Infrastructure Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html)
+[AWS Global Infrastructure Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html) Whitepaper
 
-[AWS Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
+[AWS Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) Website
 
-[AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html)
+[AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html) Reference Guide
 
-[AWS Regional Services](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/)
+[AWS Regional Services](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) Website
 
-[Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+[Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) Developer Guide
 
