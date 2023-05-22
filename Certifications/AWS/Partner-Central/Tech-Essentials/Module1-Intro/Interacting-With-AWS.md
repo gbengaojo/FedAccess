@@ -17,7 +17,7 @@ modified: '2023-05-22T17:07:57.135Z'
 CLI command: <code>aws s3api list-buckets</code>
 
 API Response:
-<code>
+```
 {
     "Owner": {
         "DisplayName": "tech-essentials", 
@@ -34,4 +34,4 @@ API Response:
         } 
     ]
 }
-</code>
+```
