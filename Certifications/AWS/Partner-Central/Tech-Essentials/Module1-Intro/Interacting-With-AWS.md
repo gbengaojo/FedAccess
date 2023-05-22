@@ -9,14 +9,13 @@ modified: '2023-05-22T17:07:57.135Z'
 
 > Every action that you make in AWS is an API call that is authenticated and authorized. In AWS, you can make API calls to services and resources through the AWS Management Console, AWS Command Line Interface (AWS CLI), or AWS SDKs.
 
-# AWS Management Console
+## AWS Management Console
 ..
 
-# AWS CLI
-**Example**
-CLI command: <code>aws s3api list-buckets</code>
+## AWS CLI
+Example CLI Command: <code>aws s3api list-buckets</code>
 
-API Response:
+Example API Response:
 ```
 {
     "Owner": {
@@ -35,3 +34,18 @@ API Response:
     ]
 }
 ```
+
+## AWS SDKs
+> SDKs are open source and maintained by AWS for the most popular programming languages, such as C++, Go, Java, JavaScript, .NET, Node.js, PHP, Python, Ruby, Rust, and Swift.
+
+Example Python SDK
+```
+import boto3
+ec2 = boto3.client('ec2')
+response = ec2.describe_instances()
+print(response)
+```
+
+## Resources
+[AWS Command Line Interface](https://aws.amazon.com/cli/)
+[Tools to Build on AWS](Tools to Build on AWS)
