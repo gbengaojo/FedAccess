@@ -18,4 +18,7 @@ Access Keys consist of two parts:
 
 > Similar to a user name and password combination, you need both the access key ID and secret access key to authenticate your requests through the AWS CLI or AWS API. Access keys should be managed with the same security as an email address and password.
 
+* Don't create Access Keys for the Root Account unless absolutely necessary. Delete them otherwise if they exist.
+  * Name > Security Credentials > Access Keys > Actions > Delete
+
 
