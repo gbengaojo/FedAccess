@@ -21,4 +21,9 @@ Access Keys consist of two parts:
 * Don't create Access Keys for the Root Account unless absolutely necessary. Delete them otherwise if they exist.
   * Name > Security Credentials > Access Keys > Actions > Delete
 
-
+## AWS Root User Best Practices
+  * Strong password
+  * MFA
+  * Don't share password or keys (if they exists)
+  * Disable or Delete access keys if not needed
+  * Create an IAM user for everyday tasks
