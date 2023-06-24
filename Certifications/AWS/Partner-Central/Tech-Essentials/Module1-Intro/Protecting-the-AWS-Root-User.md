@@ -27,3 +27,9 @@ Access Keys consist of two parts:
   * Don't share password or keys (if they exists)
   * Disable or Delete access keys if not needed
   * Create an IAM user for everyday tasks
+
+### Supported MFA devices
+  * Virtual MFA (Google Authenticator, etc)
+  * Hardware TOTP token (Key fob; Display Card)
+  * FIDO security keys
+    > FIDO-certified hardware security keys are provided by third-party providers such as Yubico. You can plug your FIDO security key into a USB port on your computer and enable it using the instructions that follow.
