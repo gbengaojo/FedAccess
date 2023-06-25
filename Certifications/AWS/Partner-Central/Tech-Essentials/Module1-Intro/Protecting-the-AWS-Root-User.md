@@ -33,3 +33,10 @@ Access Keys consist of two parts:
   * Hardware TOTP token (Key fob; Display Card)
   * FIDO security keys
     > FIDO-certified hardware security keys are provided by third-party providers such as Yubico. You can plug your FIDO security key into a USB port on your computer and enable it using the instructions that follow.
+
+### Resources
+[Enabling a Hardware Token (Console)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_physical.html)
+[Enabling a FIDO Security Key (Console)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_fido.html)
+[Enabling a Virtual Multi-Factor Authentication (MFA) Device (Console)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html)
+[Multi-Factor Authentication for IAM](https://aws.amazon.com/iam/features/mfa/)
+[Tasks That Require Root User Credentials](https://docs.aws.amazon.com/accounts/latest/reference/root-user-tasks.html)
