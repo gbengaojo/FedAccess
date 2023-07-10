@@ -21,6 +21,6 @@ public String login(@RequestParam Map<String, String> parameters, HttpServeletRe
 
 // all looks ok here. The SQL query is parameterized. Two *possible* issues come
 // to mind. 1) no input validation on the GET parameters, and 2) no real session
-// (cookie) management. E.g, a time-out could be implemented the the session
+// (cookie) management. E.g, a time-out could be implemented so that the session
 // doesn't exist indefinitely. `username` could be validated against a whitelist
 // or checked to ensure it contains the proper format.
