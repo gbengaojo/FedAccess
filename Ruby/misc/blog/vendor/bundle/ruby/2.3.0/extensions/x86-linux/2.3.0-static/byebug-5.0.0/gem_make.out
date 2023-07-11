@@ -1,0 +1,19 @@
+current directory: /home/gbenga/code/ruby/simpleblog/blog/vendor/bundle/ruby/2.3.0/gems/byebug-5.0.0/ext/byebug
+/home/gbenga/.rbenv/versions/2.3.3/bin/ruby -r ./siteconf20170507-21007-1rl4ov1.rb extconf.rb
+creating Makefile
+
+current directory: /home/gbenga/code/ruby/simpleblog/blog/vendor/bundle/ruby/2.3.0/gems/byebug-5.0.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/gbenga/code/ruby/simpleblog/blog/vendor/bundle/ruby/2.3.0/gems/byebug-5.0.0/ext/byebug
+make "DESTDIR="
+compiling context.c
+compiling locker.c
+compiling byebug.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/gbenga/code/ruby/simpleblog/blog/vendor/bundle/ruby/2.3.0/gems/byebug-5.0.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20170507-21007-vb7wso/byebug
