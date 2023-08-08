@@ -2,7 +2,8 @@
 Title: Notes for AWS Cert ->  Solutions Architect Associate, C03
 Date: Aug 6, 2023 1:11pm CST
 Link: [AWS Course](https://www.youtube.com/watch?v=keoNi7MmAUY)
-Link: [Sample Questions **Not sure how accurate**](https://www.youtube.com/watch?v=vfMz2zAsIak)
+Link: [Sample Questions Not sure how accurate](https://www.youtube.com/watch?v=vfMz2zAsIak)
+Link: [Sample Questions Not sure of accuracy; Checked in VirusTotal and ScamAdvisor](https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/view/)
 ---
 
 # Concepts
@@ -105,3 +106,15 @@ Load Balancers
   - Headers
   - HTTP Method (GET, PUSH, etc)
   - Can route based on source address
+- PEQ: Ideal for balancing requests to Microservices and Container-Based applications
+- Can Load Balance between AWS VPC and On-Premise Data Center
+- Stateful Connections
+### Legacy (Classic) Load Balancer
+- Still available, but not recommended - Elastic should be used
+- Available in both Network and Application forms
+- Legacy: Can work with both EC2-Classic and VPCs
+- Auto-scaling Capabilities
+- Can support Single or Multiple AZs, just like Modern ALB/ELB
+- Can also terminate SSL Connections
+- Provides Logs to analyze traffic flows
+- Can be used w/ CloudTrail for Auditing
