@@ -60,3 +60,47 @@ Routing Policies
 - E.g.: 75% traffic to Server A
         25% traffic to Server B
 - Good for application testing
+
+Load Balancers
+--------------
+- Could have several compute instances (machines), but if they're not load balanced, essentially one machine is computing and the others are backups
+- Load balancing allowns multiple compute instances to compute at the same time
+- Increase performance by Scaling Out instead of just Scaling Up
+- Increase Availability by removing Single Points of Failure
+- Use Health Checks to increase Availability
+### Network Load Balancers
+- Operate at L4 (Transmit Layer) of the OSI Model (TCP/UDP)
+### Application Load Balancers
+- Operate at L7 (Application Layer) of the OSI Model (HTTP/HTTPS)
+- Have a lot more intelligenc in them
+### (3) Types available
+- Elastic LB: **Application**
+- Elastic LB: **Network**
+- Classic LB: Legacy -> either Network or Application
+### AWS LB Implementation - Elastic Load Balancer
+- Distributes to multiple targets, e.g., EC2, Web Servers, etc.
+- Auto-scaling
+- Use an IP Address
+  - When auto-scaling occurs, multiple IP addresses will be used
+  - Plan the subnets accordingly or the system will can run out of address space
+- Can balance across AZs
+- Support Health Checks
+  - Removes unhealthy servers out of rotations
+- Can terminate SSL Connections
+  - Also reduces load (e.g., abandoned sessions)
+### Network Load Balancer
+- Fastest (can handle millions of request per second)
+- Sit at the perimiter of the VPC
+- Route traffic based on Destination Port (E.g, Port 80)
+- Excelent w/ rapidly changing traffic patterns
+- Stateful Connections (keeps track of what's going out, then back in and vice/versa, I suppose)
+- Connection (Host <=> Server) is maintained until the Session has ended
+- *Sticky Sessions* -> "Remembers" the user source and destination IPs
+  - Aids in good performance
+  - AuthN & AuthZ good for the Session
+### Application Load Balancer
+- Route based on several variables
+  - URL Path
+  - Headers
+  - HTTP Method (GET, PUSH, etc)
+  - Can route based on source address
