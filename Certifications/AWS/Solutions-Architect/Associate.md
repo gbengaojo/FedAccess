@@ -2,6 +2,7 @@
 Title: Notes for AWS Cert ->  Solutions Architect Associate, C03
 Date: Aug 6, 2023 1:11pm CST
 Link: [AWS Course](https://www.youtube.com/watch?v=keoNi7MmAUY)
+Link: [Sample Questions **Not sure how accurate**](https://www.youtube.com/watch?v=vfMz2zAsIak)
 ---
 
 # Concepts
