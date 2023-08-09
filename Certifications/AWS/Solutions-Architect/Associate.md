@@ -172,3 +172,33 @@ Load Balancers
   4. Messages can stay in Queue for up to 14 days, if so configured
   5. Message is pulled from Queue to be Processed
   6. After Processessing, the Message is Deleted from the Queue
+
+### AWS SNS
+- Managed Messaging Service to deliver messages between system, and/or people
+- Decouples messages between Microservice Applications
+- Used to send SMS, Email and Push Messages to Mobile Devices
+- Facilitates Communication between Senders and Recipients via a Publish/Subscribe Model
+- The (Pub-Sub) Messaging Model Enables Notiification delivery to Clients via a Push Mechanism which alerts Clients to Updates
+- How SNS works
+  - Consists of Two Components
+    - Publishers
+    - Subscribers
+  - Publishers Communicate by sending Messages to a Topic
+  - Subcribers subscribe to the Topic and Receives Messages
+  - Think of a Mailing List
+- High Availability platform that runs across Multiple AZs by default
+- Can be used to fanout messages to a large number of Subscriber Systems or Computing Endpoints
+  - E.g., SQS queues, Lambda functions, etc.
+- Allows for the creation of **Filter Policies** so that you only receive Nofifications for what You're interested in
+- Encrypts Messages immediately to protect form Unauthorized access
+- Where is SNS Used?
+  - Application and System Alerts
+    - E.g., CPU Utilization is over 80%, Notify System Administrators
+  - Email and Text Messages
+    - Can send Push Notifications to People via Email / Text
+    - E.g., a Company's CEO event is to occur and a Message is Sent to all Employees
+  - Mobile Notifications
+    - Can sned Push Notifications Directoy to Mobile Applications
+    - E.g., Notify Users of a Flash Sale on your Application
+
+### AWS SWF
