@@ -118,3 +118,57 @@ Load Balancers
 - Can also terminate SSL Connections
 - Provides Logs to analyze traffic flows
 - Can be used w/ CloudTrail for Auditing
+### Securing the AWS VPC
+...
+
+### AWS Applictions and Services
+- SQS
+- SNS
+- SWF
+- Elastic Map Reduce
+- Kineses
+- ECS
+- EKS
+- ElasticBeanstalk
+- CloudWatch
+- CloudTrail
+- AWS Config
+- CloudFront
+- Lambda
+- AWS Step Functions
+- Rekognition
+- Cloud Formation
+- Certificate Manager
+
+### AWS SQS
+- Provides modularity to increase Availabiity and Scalability
+- Segmenation and Decoupling Application Architectres can dramatically inprove Scalability by removing System Bottlenecks
+- AWS Amazon Simple Queueing Service helps Decoupling Architectures
+- Message Queuing Service that provides Temp Storage
+- Enhances Availability by providing a means to keep Messages from being lost
+- Transient Storage
+  - Default Queue Retention is 4 days
+  - Configurable to up to 14 days
+- Enables Right (Proper) Sizing of Applications
+- Facilitates Auto-Scaling
+- Mitigates the need for Messaging Middleware in Multi-Tiered Applications
+- Types of queues
+  - Standard Queues -> messages come in, then go out
+      - Very fast throughput
+      - At Once Delivery
+      - No guarantee of the order -> Best Effort Delivery
+  - FIFO Query
+      - Still High Throughput, but much slower than Standard Queues
+      - Guarantees Message processing in the order received
+      - Possible increase in latency, since slower processing messages may slow the queue
+   - Dead Letter Queues (DLQ)
+      - Feature to Retain Messages if a Delivery Error Occurs
+- How SQS Works
+  1. Messages are sent from the computing platform to the queue
+  2. Once inside the queue, the message can be scheduled for delivery
+  3. Message stays in Queue if the Destination is busy, either until
+    - Processes
+    - Timed Out
+  4. Messages can stay in Queue for up to 14 days, if so configured
+  5. Message is pulled from Queue to be Processed
+  6. After Processessing, the Message is Deleted from the Queue
