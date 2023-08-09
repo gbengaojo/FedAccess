@@ -1,10 +1,3 @@
----
-Title: Notes for AWS Cert ->  Solutions Architect Associate, C03
-Date: Aug 6, 2023 1:11pm CST
-Link: [AWS Course](https://www.youtube.com/watch?v=keoNi7MmAUY)
-Link: [Sample Questions Not sure how accurate](https://www.youtube.com/watch?v=vfMz2zAsIak)
-Link: [Sample Questions Not sure of accuracy Checked in VirusTotal and ScamAdvisor](https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/view/)
----
 
 # Concepts
 + **Service Control Policy (SCP)** ->
