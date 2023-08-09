@@ -173,7 +173,7 @@ Load Balancers
   5. Message is pulled from Queue to be Processed
   6. After Processessing, the Message is Deleted from the Queue
 
-### AWS SNS
+### AWS SNS (Simple Notification Service)
 - Managed Messaging Service to deliver messages between system, and/or people
 - Decouples messages between Microservice Applications
 - Used to send SMS, Email and Push Messages to Mobile Devices
@@ -201,4 +201,21 @@ Load Balancers
     - Can sned Push Notifications Directoy to Mobile Applications
     - E.g., Notify Users of a Flash Sale on your Application
 
-### AWS SWF
+### AWS SWF (Simple Workflow System)
+- SWF is a Workflow Management Solution
+- Enables the Coordination of different Tasks across Distributed Applications
+- Enables the creation of a Workflow of Tasks that take multiple steps to complete
+- Coordinates the execution of Tasks in Distributed Applications
+- Mitigates the need to Develop Code to Coordinate Tasks in Multiple Systems.
+  - Saves Development Time
+- A Pre-Built Worflow Management Solution.
+  - Just tell SWF the Necessary Workflow Steps
+  - SWF Handles all of the Coordination
+- For Example:
+  1. Video is Uploaded
+  2. Video is Processed and Converted to an Optimized Format
+  3. After Formatting the Video is Transcribed
+  4. After Transcription, Subtitles are added
+  5. After Final Processing, the Video is Stored
+  6. After the Video is Ready, the User gets a Notification to download their video
+    ![AWS SWF Worflow](/assets/images/AWS-SWF-Worfklow.png)
