@@ -289,4 +289,18 @@ Load Balancers
     - Additional Charge
     - Must be enabled at the EC2 instance
 
-
+### CloudTrail
+- CloudTrail An Auditing Service
+- Provides an Audit Log that helps w/ Risk Management and Compliance
+  - Especially useful in Highly Regulated Industries
+- Tracks changes ade by Users, Roles, or AWS Services
+- Enabled when the AWS account is created
+  - Start by *Creating a Trail* (Console, CLI, or CloudWatch API)
+- Records Events; these Events are Visible in the CloudTrail Console under *Event History*
+  - Records for 90 days
+  - Can be configured to store in S3 if needed for longer
+- Essentially Two(2) Trails
+  - One is local to a specific region
+    - Simple, less features, functions
+  - one that applies to an entire region
+    - More detailed and complex auditing
