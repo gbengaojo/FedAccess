@@ -1,6 +1,7 @@
 ---
 Title: Notes for AWS Cert ->  Solutions Architect Associate, C03
 Date: Aug 6, 2023 1:11pm CST
+Modifed: Aug 10, 2023 11:20am CST
 Link: [AWS Course](https://www.youtube.com/watch?v=keoNi7MmAUY)
 Link: [Sample Questions Not sure how accurate](https://www.youtube.com/watch?v=vfMz2zAsIak)
 Link: [Sample Questions Not sure of accuracy Checked in VirusTotal and ScamAdvisor](https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/view/)
@@ -254,4 +255,38 @@ Load Balancers
 - Deployed Architecture is Auto-Scaling
 - Autoscaled infrastructure is automatically load balanced
 - Works w/ Go, Java, .NET, Node.js, PHP, Python, Ruby
-- Provisions and Manages the Environment, but All
+- Provisions and Manages the Environment, but All you to Manage the Environment if Desired after Deployment
+- Montitors the Health of your Applications
+- Integrated w/ CloudWatch Logs for Performance Monitoring
+
+### CloudWatch
+- Monitoring Service to Monitor AWS Resources as well as Applications deployed on AWS
+- Provides Metrics to Monitor Performance and Troubleshoot Issues
+- Can work w/ built in metrics and Custom metrics
+    ![CloudWatch](assets/images/CloudWatch.png)
+- Default Metrics, E.g.:
+  - CPU Utilization
+  - Disk Read/Write OPS
+  - Network Utilization
+  - Etc.
+- Custom Metrics Can be buit to Monitor Critical Application Performance Factors
+  - Memory Utilization
+  - API Performance
+  - Etc.
+- Contains a Notification System that notifies Customers and Allows them to set Evets when certain Thresholds are met
+- CloudWatch Events can be used to trigger:
+  - Auto-Scaling
+  - Lambda (Serverless) Functions
+  - SNS Notifications
+  - Container Actions
+  - Many other Functions
+- Available in Two Verstions for EC2 instances
+  - Basic Monitoring
+    - Data Available Automatically every 5 minutes
+    - No charge
+  - Detailied Monitoring
+    - Data Available every 1 minute
+    - Additional Charge
+    - Must be enabled at the EC2 instance
+
+
