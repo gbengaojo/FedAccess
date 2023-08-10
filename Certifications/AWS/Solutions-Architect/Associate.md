@@ -7,7 +7,7 @@ Link: [Sample Questions Not sure of accuracy Checked in VirusTotal and ScamAdvis
 ---
 
 # Concepts
-+ **Service Control Policy (SCP)** ->
++ Service Control Policy (SCP) ->
 + Cross-account Role ->
   + External ID ->
 + Fargate
@@ -19,7 +19,34 @@ Link: [Sample Questions Not sure of accuracy Checked in VirusTotal and ScamAdvis
   + NAT Gateway
   + Internet Gateway
   + Virtual Private Gateway
-
++ Immutable Infrastructure
++ AWS X-Ray
++ Best practices for Disaster Recovery
++ AWS Direct Connect
++ AWS Batch
++ AWS Private Link
++ AWS Lake Formation
++ AWS Athena
++ AWS Quick Site
++ AWS Glue
++ AWS Data Sync
++ AWS Storage Gateway
++ How do de-couple workloads so they scale properly?
++ What kicks off scaling
++ Data Ingestion (Lake)
+  - Transformation
+  - Streaming Data
+  - etc.
++ Right Sizing
+  - Correct Storage Size
+  - S3 Life Cycles
+  - Load Balancing and Connectivity Cost Savings
+  - AWS Transit Gateway
+  - VPC Peering
+  - DNS
+  - Route 53
+  - Elastic Load Bouncers
++ **AWS Well Architected Framework, the Sustainability Pillar**
 DNS
 ---
 ### A Record
@@ -219,3 +246,12 @@ Load Balancers
   5. After Final Processing, the Video is Stored
   6. After the Video is Ready, the User gets a Notification to download their video
     ![AWS SWF Worflow](assets/images/AWS-SWF-Worfklow.png)
+
+### AWS Elastic Beanstalk
+- A Service for Provisioning, Deploying, and Scaling Web Applications and Services
+- Code is Uploaded to Beanstalk, then automatically deployed to necessary Infrastructure
+  - EC2, Containers (ECS/EKS), Load Balancers, etc.
+- Deployed Architecture is Auto-Scaling
+- Autoscaled infrastructure is automatically load balanced
+- Works w/ Go, Java, .NET, Node.js, PHP, Python, Ruby
+- Provisions and Manages the Environment, but All
