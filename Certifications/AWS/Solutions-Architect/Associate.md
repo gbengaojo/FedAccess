@@ -248,6 +248,10 @@ Load Balancers
   6. After the Video is Ready, the User gets a Notification to download their video
     ![AWS SWF Worflow](assets/images/AWS-SWF-Worfklow.png)
 
+---
+// Data missing from here
+---
+
 ### AWS Elastic Beanstalk
 - A Service for Provisioning, Deploying, and Scaling Web Applications and Services
 - Code is Uploaded to Beanstalk, then automatically deployed to necessary Infrastructure
@@ -259,7 +263,7 @@ Load Balancers
 - Montitors the Health of your Applications
 - Integrated w/ CloudWatch Logs for Performance Monitoring
 
-### CloudWatch
+### AWS CloudWatch
 - Monitoring Service to Monitor AWS Resources as well as Applications deployed on AWS
 - Provides Metrics to Monitor Performance and Troubleshoot Issues
 - Can work w/ built in metrics and Custom metrics
@@ -289,7 +293,7 @@ Load Balancers
     - Additional Charge
     - Must be enabled at the EC2 instance
 
-### CloudTrail
+### AWS CloudTrail
 - CloudTrail An Auditing Service
 - Provides an Audit Log that helps w/ Risk Management and Compliance
   - Especially useful in Highly Regulated Industries
@@ -304,3 +308,20 @@ Load Balancers
     - Simple, less features, functions
   - one that applies to an entire region
     - More detailed and complex auditing
+
+### AWS Config
+- Service that Enables Assessment, Auditing, and Evaluation of Configurations in AWS
+- Provides an Opportunity to See What changes were made and who made them within a VPC
+- When a change is made, AWS Config can send an SNS alert to System Administrators
+- Provides constant monitoring of Infrastructure to ensure best practices and performance
+
+1. A Configuration change is made
+2. AWS Config Notes the change, and records the change in a consistent format
+3. AWS Config then checks the change against the Organization's Policies
+4. AWS Config will notify the Services that notify the System Admins of changes that occurred
+5. Notifications can be:
+  - CloudWatch Event
+  - SNS
+  - Another AWS Service
+
+### AWS CloudFront
