@@ -6,13 +6,18 @@ public class AddDate {
     // LocalDate dateObj = LocalDate.of(args[1], args[2], args[3]);
 
     // Temp: Brute force..
-    LocalDate dateObj = LocalDate.of(2023, 6, 22);
+    int year = 2023;
+    int month = 8;
+    int day = 10;
+    LocalDate dateObj = LocalDate.of(year, month, day);
     
     System.out.println("\nDate Input: " + dateObj + "\n");
 
-    // add 28 dayas to current date
-    // available *on* the 28 day, so exclusive (off by one)
-    LocalDate twentyEightDays = dateObj.plusDays(28 - 1);
-    System.out.println("28 Days past Input Date: " + twentyEightDays + "\n");
+    // add n days to current date
+    // use 29 days for pmp (should be 28, but seems to be off by 1 depending on
+    // who knows what?
+    int days = 53;
+    LocalDate targetDate = dateObj.plusDays(days);
+    System.out.println(days + " Days past Input Date: " + targetDate + "\n");
   }
 }
