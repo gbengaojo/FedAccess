@@ -7,6 +7,6 @@ modified: --
 
 React Resources
 ---------------
-+ [Wikipedia.org Overview](https://en.wikipedia.org/wiki/React_(software)
++ [Wikipedia.org Overview](https://en.wikipedia.org/wiki/React_(software))
 + [Straight-forward W3Schools Tutorial](https://www.w3schools.com/react/default.asp)
 + [Authoritative Source (Main Site)](https://react.dev/)
