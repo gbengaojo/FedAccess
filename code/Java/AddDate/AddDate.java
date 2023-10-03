@@ -8,7 +8,7 @@ public class AddDate {
     // Temp: Brute force..
     int year = 2023;
     int month = 8;
-    int day = 10;
+    int day = 6;
     LocalDate dateObj = LocalDate.of(year, month, day);
     
     System.out.println("\nDate Input: " + dateObj + "\n");
@@ -16,7 +16,7 @@ public class AddDate {
     // add n days to current date
     // use 29 days for pmp (should be 28, but seems to be off by 1 depending on
     // who knows what?
-    int days = 53;
+    int days = 29;
     LocalDate targetDate = dateObj.plusDays(days);
     System.out.println(days + " Days past Input Date: " + targetDate + "\n");
   }
