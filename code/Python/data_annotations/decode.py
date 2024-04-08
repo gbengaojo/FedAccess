@@ -33,27 +33,27 @@ def decode(message_file):
     counter = 0
     for k in keyfile:
         key += k[-1]
-    print(key[0])
+
     message_file = "cypher.txt"
     str = ""
     lines = get_cypher(message_file)
     for i in lines:
         if i[0] == keyfile[counter]:
-            str = i[2:].strip()
-            if counter < len(key) - 1:
+            str += i[2:].strip() + " "
+            if counter < len(keyfile) - 1:
                 counter += 1
             continue
         if i[0] == keyfile[counter]:
-            str += " " + i[2:].strip()
-            if counter < len(key) - 1:
+            str += " " + i[2:].strip() + " "
+            if counter < len(keyfile) - 1:
                 counter += 1
             continue
         if i[0] == key[counter]:
-            str += " " + i[2:].strip()
-            if counter < len(key) - 1:
+            str += " " + i[2:].strip() + " "
+            if counter < len(keyfile) - 1:
                 counter += 1
             continue
-    return str
+    return str.strip()
 
 plaintext = decode("cypher.txt")
 print(plaintext)
