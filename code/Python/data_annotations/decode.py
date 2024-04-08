@@ -1,45 +1,59 @@
-import numpy
-
 def get_cypher(cypher_file):
     """
-    :rtype: arr[str]
+    :param: (string) path to cyphertext
+    :return: Sorted list from cyphertext
     """
     with open(cypher_file, "r") as fd:
         lines = fd.readlines()
         lines.sort()
-        for i in lines:
-            if int(i[0]) == 1:
-                str = i[2:].strip()
-                print(i[2:])
-            if int(i[0]) == 3:
-                str += " " + i[2:].strip()
-                print(i[2:])
-            if int(i[0]) == 6:
-                str += " " + i[2:].strip()
-                print(i[2:])
-        print(str)
+
     return lines
 
 def get_key(key_file):
     """
-    :return:
+    :param: (string) path to keyfile
+    :return: List of last integer of each line in keyfile
     """
     with open(key_file, "r") as fd:
         keys = fd.readlines()
+        k = []
+        cypher_key = []
         for i in range(0, len(keys)):
-            k = keys[i].strip().split(" ")
-            print(k)
-            print(k[-1])
-    return k
+            k += keys[i].strip().split(" ")
+            cypher_key += (k[-1])
+    return cypher_key
 
 def decode(message_file):
-    message_file = "cypher.txt"
-    cypher = get_cypher(message_file)
-    # print(cypher)
-
+    """
+    :param (string) message_file:
+    :return: (string) plaintext - decoded cyphertext
+    """
     keyfile = get_key("key.txt")
-    # print(keyfile)
+    key = ""
+    counter = 0
+    for k in keyfile:
+        key += k[-1]
+    print(key[0])
+    message_file = "cypher.txt"
+    str = ""
+    lines = get_cypher(message_file)
+    for i in lines:
+        if i[0] == keyfile[counter]:
+            str = i[2:].strip()
+            if counter < len(key) - 1:
+                counter += 1
+            continue
+        if i[0] == keyfile[counter]:
+            str += " " + i[2:].strip()
+            if counter < len(key) - 1:
+                counter += 1
+            continue
+        if i[0] == key[counter]:
+            str += " " + i[2:].strip()
+            if counter < len(key) - 1:
+                counter += 1
+            continue
+    return str
 
-    # for i in keyfile:
-
-decode("cypher.txt")
+plaintext = decode("cypher.txt")
+print(plaintext)
