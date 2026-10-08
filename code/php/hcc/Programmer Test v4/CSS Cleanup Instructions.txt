@@ -1,3 +1,0 @@
-Instructions:
-
-Reduce the HTML and CSS in this file to MINIMUM amount of characters possible while following all best practices for CSS, and maintaining the same visual display
