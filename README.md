@@ -12,5 +12,5 @@ desired.
 
 ### Chronicle
 This chronicles my journey through navigating the Federal Access and Bidding
-Systems, as of aprroximately year 2020. Things have changed and are doing so
+Systems, as of approximately year 2020. Things have changed and are doing so
 rapidly, so any outdated information and pull requests are welcome.
